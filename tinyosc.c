@@ -19,7 +19,7 @@
 #include <string.h>
 #include <stdio.h>
 #if _WIN32
-#include <winsock2.h>
+#include <Winsock2.h>
 #define tosc_strncpy(_dst, _src, _len) strncpy_s(_dst, _len, _src, _TRUNCATE)
 #else
 #include <netinet/in.h>
